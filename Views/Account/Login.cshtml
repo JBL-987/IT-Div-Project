@@ -1,0 +1,62 @@
+﻿@model RentalMobil.Models.LoginViewModel
+
+@{
+    ViewData["Title"] = "Login";
+}
+
+<link rel="stylesheet" href="~/css/login.css" asp-append-version="true" />
+
+<h1>Login</h1>
+<div class="login-container">
+    <div class="login-card">
+        <h2>Login ke RentCar</h2>
+
+        <form id="loginForm" onsubmit="return false;">
+            <div class="form-group">
+                <label asp-for="Email">Username</label>
+                <input asp-for="Email" class="form-control" placeholder="Masukkan email Anda" />
+                <span asp-validation-for="Email" class="text-danger"></span>
+            </div>
+
+            <div class="form-group">
+                <label asp-for="Password">Password</label>
+                <input asp-for="Password" type="password" class="form-control" placeholder="Masukkan password Anda" />
+                <span asp-validation-for="Password" class="text-danger"></span>
+            </div>
+
+            <button type="submit" class="login-button" onclick="loginUser()">Login</button>
+        </form>
+
+        <div class="register-link">
+            Belum punya akun?
+            <a asp-controller="Account" asp-action="Register">Registrasi disini</a>
+        </div>
+    </div>
+</div>
+
+<script>
+    async function loginUser() {
+        const form = document.getElementById('loginForm');
+        const formData = {
+            Username: form.Username.value,
+            Password: form.Password.value
+        };
+
+        const response = await fetch('/api/account/login', {
+            method: 'POST',
+            headers: {
+                'Content-Type': 'application/json'
+            },
+            body: JSON.stringify(formData)
+        });
+
+        const result = await response.json();
+        if (response.ok) {
+            alert(result.message);
+            // Redirect or do something after successful login
+            window.location.href = '/'; // Redirect to homepage or dashboard
+        } else {
+            alert(result.message);
+        }
+    }
+</script>

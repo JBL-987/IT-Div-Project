@@ -1,0 +1,52 @@
+﻿@model IEnumerable<RentalMobil.Models.Rental>
+
+@{
+    ViewData["Title"] = "Riwayat Penyewaan";
+}
+
+@section Styles {
+    <link rel="stylesheet" href="~/css/rental.css" />
+}
+
+<div class="container">
+    <div class="welcome-section">
+        <h1>Mobil yang Pernah Disewa</h1>
+    </div>
+
+    @if (Model != null && Model.Any())
+    {
+        <table class="rental-table">
+            <thead>
+                <tr>
+                    <th>Tanggal Sewa</th>
+                    <th>Mobil</th>
+                    <th>Tahun Mobil</th>
+                    <th>Harga Sewa per Hari</th>
+                    <th>Total Hari</th>
+                    <th>Total Harga</th>
+                    <th>Status Pembayaran</th>
+                </tr>
+            </thead>
+            <tbody>
+                @foreach (var rental in Model)
+                {
+                    <tr>
+                        <td>@rental.RentalStartDate.ToString("dd MMMM yyyy") - @rental.RentalEndDate.ToString("dd MMMM yyyy")</td>
+                        <td>@rental.CarModel</td>
+                        <td>@rental.CarYear</td>
+                        <td>Rp. @rental.DailyRate.ToString("#,##0")</td>
+                        <td>@rental.TotalDays</td>
+                        <td>Rp. @rental.TotalAmount.ToString("#,##0")</td>
+                        <td class="@(rental.IsPaid ? "status-paid" : "status-unpaid")">
+                            @(rental.IsPaid ? "Sudah Dibayar" : "Belum Dibayar")
+                        </td>
+                    </tr>
+                }
+            </tbody>
+        </table>
+    }
+    else
+    {
+        <p>Belum ada riwayat penyewaan.</p>
+    }
+</div>

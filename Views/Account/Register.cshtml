@@ -1,0 +1,84 @@
+﻿@model RentalMobil.Models.RegisterViewModel
+@{
+    ViewData["Title"] = "Registrasi Ke RentCar";
+}
+
+<link rel="stylesheet" href="~/css/Register.css" asp-append-version="true" />
+<div class="register-container">
+    <div class="register-card">
+        <h2>Registrasi ke RentCar</h2>
+        <form id="registerForm" onsubmit="return false;">
+            <div class="form-group">
+                <label asp-for="Email">Email</label>
+                <input asp-for="Email" class="form-control" placeholder="Masukkan email Anda" />
+                <span asp-validation-for="Email" class="text-danger"></span>
+            </div>
+
+            <div class="form-group">
+                <label asp-for="Username">Username</label>
+                <input asp-for="Username" class="form-control" placeholder="Masukkan username Anda" />
+                <span asp-validation-for="Username" class="text-danger"></span>
+            </div>
+
+            <div class="form-group">
+                <label asp-for="Password">Password</label>
+                <input asp-for="Password" type="password" class="form-control" placeholder="Masukkan password Anda" />
+                <span asp-validation-for="Password" class="text-danger"></span>
+            </div>
+
+            <div class="form-group">
+                <label asp-for="RePassword">Re-Password</label>
+                <input asp-for="RePassword" type="password" class="form-control" placeholder="Masukkan kembali password Anda" />
+                <span asp-validation-for="RePassword" class="text-danger"></span>
+            </div>
+
+            <div class="form-group">
+                <label asp-for="Phone">Nomor Telepon</label>
+                <input asp-for="Phone" class="form-control" placeholder="Masukkan nomor telepon Anda" />
+                <span asp-validation-for="Phone" class="text-danger"></span>
+            </div>
+
+            <div class="form-group">
+                <label asp-for="Address">Alamat</label>
+                <input asp-for="Address" class="form-control" placeholder="Masukkan alamat Anda" />
+                <span asp-validation-for="Address" class="text-danger"></span>
+            </div>
+
+            <button type="submit" class="register-button" onclick="registerUser()">Registrasi</button>
+        </form>
+        <div class="login-link">
+            Sudah punya akun? <a asp-controller="Account" asp-action="Login">Login disini</a>
+        </div>
+    </div>
+</div>
+
+<script>
+    async function registerUser() {
+        const form = document.getElementById('registerForm');
+        const formData = {
+            Username: form.Username.value,
+            Email: form.Email.value,
+            Password: form.Password.value,
+            RePassword: form.RePassword.value,
+            Phone: form.Phone.value,
+            Address: form.Address.value
+        };
+
+        const response = await fetch('/api/account/register', {
+            method: 'POST',
+            headers: {
+                'Content-Type': 'application/json'
+            },
+            body: JSON.stringify(formData)
+        });
+
+        const result = await response.json();
+        if (response.ok) {
+            alert(result.message);
+            // Redirect to login or home page after successful registration
+            window.location.href = '/Account/Login'; // Redirect to login page
+        } else {
+            alert('Registration failed: ' + result.errors[0]);
+        }
+    }
+</script>

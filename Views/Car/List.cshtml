@@ -1,0 +1,206 @@
+﻿@model IEnumerable<RentalMobil.Models.DTOs.CarResponseDto>
+@{
+    ViewData["Title"] = "Available Cars for Rent";
+}
+
+<link rel="stylesheet" href="~/css/Car.css" asp-append-version="true" />
+
+<div class="main-container">
+    <!-- Search and Filter Section -->
+    <div class="search-filter-section">
+        <div class="search-box">
+            <input type="text" id="searchCar" placeholder="Search by car name..." class="search-input" />
+            <select id="filterTransmission" class="filter-select">
+                <option value="">All Transmissions</option>
+                <option value="Automatic">Automatic</option>
+                <option value="Manual">Manual</option>
+            </select>
+            <select id="filterType" class="filter-select">
+                <option value="">All Types</option>
+                <option value="SUV">SUV</option>
+                <option value="Sedan">Sedan</option>
+                <option value="MPV">MPV</option>
+            </select>
+            <button id="applyFilters" class="filter-button">Apply Filters</button>
+        </div>
+    </div>
+
+    <!-- Cars Grid Section -->
+    <div class="cars-grid-container">
+        <h2 class="section-title">Available Cars</h2>
+        <div class="cars-grid">
+            @foreach (var car in Model)
+            {
+                <div class="car-card" data-car-id="@car.CarId">
+                    <div class="car-image-container">
+                        <img src="@car.ImageUrl" alt="@car.CarName" class="car-image" />
+                        @if (car.Status.ToLower() == "available")
+                        {
+                            <span class="status-badge available">Available</span>
+                        }
+                        else
+                        {
+                            <span class="status-badge unavailable">@car.Status</span>
+                        }
+                    </div>
+                    <div class="car-info">
+                        <h3 class="car-name">@car.CarName</h3>
+                        <div class="car-year">@car.ManufacturingYear</div>
+                        <div class="car-specs">
+                            <div class="spec-item">
+                                <i class="fas fa-car"></i>
+                                <span>@car.CarType</span>
+                            </div>
+                            <div class="spec-item">
+                                <i class="fas fa-cog"></i>
+                                <span>@car.Transmission</span>
+                            </div>
+                            <div class="spec-item">
+                                <i class="fas fa-users"></i>
+                                <span>@car.PassengerCount Seats</span>
+                            </div>
+                        </div>
+                        <div class="price-section">
+                            <span class="price">Rp @car.DailyRate.ToString("N0")</span>
+                            <span class="price-period">/ day</span>
+                        </div>
+                        <button class="rent-button @(car.Status.ToLower() != "available" ? "disabled" : "")"
+                                data-car-id="@car.CarId"
+                        @(car.Status.ToLower() != "available" ? "disabled" : "")>
+                            @(car.Status.ToLower() == "available" ? "Rent Now" : "Not Available")
+                        </button>
+                    </div>
+                </div>
+            }
+        </div>
+    </div>
+
+    <!-- Rental Modal -->
+    <div id="rentalModal" class="modal">
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <h2>Rent Car</h2>
+            <form id="rentalForm">
+                <input type="hidden" id="selectedCarId" />
+                <div class="form-group">
+                    <label for="pickupDate">Pickup Date:</label>
+                    <input type="date" id="pickupDate" required />
+                </div>
+                <div class="form-group">
+                    <label for="returnDate">Return Date:</label>
+                    <input type="date" id="returnDate" required />
+                </div>
+                <div class="form-group">
+                    <label for="totalPrice">Total Price:</label>
+                    <span id="totalPrice">Rp 0</span>
+                </div>
+                <button type="submit" class="confirm-rental-button">Confirm Rental</button>
+            </form>
+        </div>
+    </div>
+</div>
+
+@section Scripts {
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://kit.fontawesome.com/your-font-awesome-kit.js"></script>
+    <script>
+        $(document).ready(function () {
+            // Search and filter functionality
+            $('#applyFilters').click(function () {
+                const searchTerm = $('#searchCar').val().toLowerCase();
+                const transmission = $('#filterTransmission').val();
+                const type = $('#filterType').val();
+
+                $('.car-card').each(function () {
+                    const car = $(this);
+                    const carName = car.find('.car-name').text().toLowerCase();
+                    const carTransmission = car.find('.spec-item:nth-child(2)').text();
+                    const carType = car.find('.spec-item:nth-child(1)').text();
+
+                    const matchesSearch = carName.includes(searchTerm);
+                    const matchesTransmission = !transmission || carTransmission.includes(transmission);
+                    const matchesType = !type || carType.includes(type);
+
+                    if (matchesSearch && matchesTransmission && matchesType) {
+                        car.show();
+                    } else {
+                        car.hide();
+                    }
+                });
+            });
+
+            // Clear filters functionality
+            $('#clearFilters').click(function () {
+                $('#searchCar').val('');
+                $('#filterTransmission').val('');
+                $('#filterType').val('');
+                $('.car-card').show();
+            });
+
+            // Rental modal functionality
+            $('.rent-button:not(.disabled)').click(function () {
+                const carId = $(this).data('car-id');
+                $('#selectedCarId').val(carId);
+                $('#rentalModal').show();
+
+                // Set minimum dates
+                const today = new Date().toISOString().split('T')[0];
+                $('#pickupDate').attr('min', today);
+                $('#pickupDate').val(today);
+
+                const tomorrow = new Date();
+                tomorrow.setDate(tomorrow.getDate() + 1);
+                const tomorrowStr = tomorrow.toISOString().split('T')[0];
+                $('#returnDate').attr('min', tomorrowStr);
+                $('#returnDate').val(tomorrowStr);
+            });
+
+            $('.close').click(function () {
+                $('#rentalModal').hide();
+            });
+
+            // Calculate total price when dates change
+            $('#pickupDate, #returnDate').change(function () {
+                const pickupDate = new Date($('#pickupDate').val());
+                const returnDate = new Date($('#returnDate').val());
+                const carId = $('#selectedCarId').val();
+
+                if (pickupDate && returnDate && returnDate > pickupDate) {
+                    const days = Math.ceil((returnDate - pickupDate) / (1000 * 60 * 60 * 24));
+                    const dailyRate = parseFloat($(`[data-car-id="${carId}"]`).find('.price').text().replace(/[^0-9]/g, ''));
+                    const totalPrice = days * dailyRate;
+                    $('#totalPrice').text(`Rp ${totalPrice.toLocaleString()}`);
+                } else {
+                    $('#totalPrice').text('Rp 0');
+                }
+            });
+
+            // Handle rental form submission
+            $('#rentalForm').submit(function (e) {
+                e.preventDefault();
+                const rentalData = {
+                    carId: $('#selectedCarId').val(),
+                    pickupDate: $('#pickupDate').val(),
+                    returnDate: $('#returnDate').val()
+                };
+
+                $('#confirm-rental-button').prop('disabled', true).text('Processing...');
+
+                // Send rental request to server
+                $.post('/api/rentals/create', rentalData)
+                    .done(function (response) {
+                        alert('Rental request submitted successfully!');
+                        $('#rentalModal').hide();
+                        location.reload(); // Refresh to update car availability
+                    })
+                    .fail(function (error) {
+                        alert('Failed to submit rental request. Please try again.');
+                    })
+                    .always(function () {
+                        $('#confirm-rental-button').prop('disabled', false).text('Confirm Rental');
+                    });
+            });
+        });
+
+    </script>
+}

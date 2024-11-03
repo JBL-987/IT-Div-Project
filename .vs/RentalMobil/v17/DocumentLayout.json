@@ -1,0 +1,713 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\Documents\\Code\\Jason Brandon Loi_2802484584_ASP.NET\\RentalMobil\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{5FBBF0E6-D63A-4B83-B655-C176A6762C9A}|RentalMobil.csproj|d:\\documents\\code\\jason brandon loi_2802484584_asp.net\\rentalmobil\\models\\registerviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5FBBF0E6-D63A-4B83-B655-C176A6762C9A}|RentalMobil.csproj|solutionrelative:models\\registerviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5FBBF0E6-D63A-4B83-B655-C176A6762C9A}|RentalMobil.csproj|d:\\documents\\code\\jason brandon loi_2802484584_asp.net\\rentalmobil\\models\\rental.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5FBBF0E6-D63A-4B83-B655-C176A6762C9A}|RentalMobil.csproj|solutionrelative:models\\rental.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5FBBF0E6-D63A-4B83-B655-C176A6762C9A}|RentalMobil.csproj|d:\\documents\\code\\jason brandon loi_2802484584_asp.net\\rentalmobil\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5FBBF0E6-D63A-4B83-B655-C176A6762C9A}|RentalMobil.csproj|solutionrelative:models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5FBBF0E6-D63A-4B83-B655-C176A6762C9A}|RentalMobil.csproj|d:\\documents\\code\\jason brandon loi_2802484584_asp.net\\rentalmobil\\models\\errorviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5FBBF0E6-D63A-4B83-B655-C176A6762C9A}|RentalMobil.csproj|solutionrelative:models\\errorviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5FBBF0E6-D63A-4B83-B655-C176A6762C9A}|RentalMobil.csproj|d:\\documents\\code\\jason brandon loi_2802484584_asp.net\\rentalmobil\\models\\loginviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5FBBF0E6-D63A-4B83-B655-C176A6762C9A}|RentalMobil.csproj|solutionrelative:models\\loginviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5FBBF0E6-D63A-4B83-B655-C176A6762C9A}|RentalMobil.csproj|d:\\documents\\code\\jason brandon loi_2802484584_asp.net\\rentalmobil\\models\\car.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5FBBF0E6-D63A-4B83-B655-C176A6762C9A}|RentalMobil.csproj|solutionrelative:models\\car.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5FBBF0E6-D63A-4B83-B655-C176A6762C9A}|RentalMobil.csproj|d:\\documents\\code\\jason brandon loi_2802484584_asp.net\\rentalmobil\\models\\dtos\\userresponedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5FBBF0E6-D63A-4B83-B655-C176A6762C9A}|RentalMobil.csproj|solutionrelative:models\\dtos\\userresponedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5FBBF0E6-D63A-4B83-B655-C176A6762C9A}|RentalMobil.csproj|d:\\documents\\code\\jason brandon loi_2802484584_asp.net\\rentalmobil\\models\\dtos\\rentalresponsedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5FBBF0E6-D63A-4B83-B655-C176A6762C9A}|RentalMobil.csproj|solutionrelative:models\\dtos\\rentalresponsedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5FBBF0E6-D63A-4B83-B655-C176A6762C9A}|RentalMobil.csproj|d:\\documents\\code\\jason brandon loi_2802484584_asp.net\\rentalmobil\\models\\dtos\\rentalrequestdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5FBBF0E6-D63A-4B83-B655-C176A6762C9A}|RentalMobil.csproj|solutionrelative:models\\dtos\\rentalrequestdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5FBBF0E6-D63A-4B83-B655-C176A6762C9A}|RentalMobil.csproj|d:\\documents\\code\\jason brandon loi_2802484584_asp.net\\rentalmobil\\models\\dtos\\carsearchrequestdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5FBBF0E6-D63A-4B83-B655-C176A6762C9A}|RentalMobil.csproj|solutionrelative:models\\dtos\\carsearchrequestdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5FBBF0E6-D63A-4B83-B655-C176A6762C9A}|RentalMobil.csproj|d:\\documents\\code\\jason brandon loi_2802484584_asp.net\\rentalmobil\\models\\dtos\\carresponsedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5FBBF0E6-D63A-4B83-B655-C176A6762C9A}|RentalMobil.csproj|solutionrelative:models\\dtos\\carresponsedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5FBBF0E6-D63A-4B83-B655-C176A6762C9A}|RentalMobil.csproj|d:\\documents\\code\\jason brandon loi_2802484584_asp.net\\rentalmobil\\models\\dtos\\cardto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5FBBF0E6-D63A-4B83-B655-C176A6762C9A}|RentalMobil.csproj|solutionrelative:models\\dtos\\cardto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5FBBF0E6-D63A-4B83-B655-C176A6762C9A}|RentalMobil.csproj|d:\\documents\\code\\jason brandon loi_2802484584_asp.net\\rentalmobil\\services\\rentalservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5FBBF0E6-D63A-4B83-B655-C176A6762C9A}|RentalMobil.csproj|solutionrelative:services\\rentalservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5FBBF0E6-D63A-4B83-B655-C176A6762C9A}|RentalMobil.csproj|d:\\documents\\code\\jason brandon loi_2802484584_asp.net\\rentalmobil\\services\\carservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5FBBF0E6-D63A-4B83-B655-C176A6762C9A}|RentalMobil.csproj|solutionrelative:services\\carservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5FBBF0E6-D63A-4B83-B655-C176A6762C9A}|RentalMobil.csproj|d:\\documents\\code\\jason brandon loi_2802484584_asp.net\\rentalmobil\\services\\icarservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5FBBF0E6-D63A-4B83-B655-C176A6762C9A}|RentalMobil.csproj|solutionrelative:services\\icarservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5FBBF0E6-D63A-4B83-B655-C176A6762C9A}|RentalMobil.csproj|d:\\documents\\code\\jason brandon loi_2802484584_asp.net\\rentalmobil\\services\\irentalservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5FBBF0E6-D63A-4B83-B655-C176A6762C9A}|RentalMobil.csproj|solutionrelative:services\\irentalservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5FBBF0E6-D63A-4B83-B655-C176A6762C9A}|RentalMobil.csproj|d:\\documents\\code\\jason brandon loi_2802484584_asp.net\\rentalmobil\\data\\databaseconnection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5FBBF0E6-D63A-4B83-B655-C176A6762C9A}|RentalMobil.csproj|solutionrelative:data\\databaseconnection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5FBBF0E6-D63A-4B83-B655-C176A6762C9A}|RentalMobil.csproj|d:\\documents\\code\\jason brandon loi_2802484584_asp.net\\rentalmobil\\controllers\\accountcontrollers.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5FBBF0E6-D63A-4B83-B655-C176A6762C9A}|RentalMobil.csproj|solutionrelative:controllers\\accountcontrollers.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5FBBF0E6-D63A-4B83-B655-C176A6762C9A}|RentalMobil.csproj|d:\\documents\\code\\jason brandon loi_2802484584_asp.net\\rentalmobil\\controllers\\carcontrollers.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5FBBF0E6-D63A-4B83-B655-C176A6762C9A}|RentalMobil.csproj|solutionrelative:controllers\\carcontrollers.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5FBBF0E6-D63A-4B83-B655-C176A6762C9A}|RentalMobil.csproj|d:\\documents\\code\\jason brandon loi_2802484584_asp.net\\rentalmobil\\controllers\\homecontrollers.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5FBBF0E6-D63A-4B83-B655-C176A6762C9A}|RentalMobil.csproj|solutionrelative:controllers\\homecontrollers.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5FBBF0E6-D63A-4B83-B655-C176A6762C9A}|RentalMobil.csproj|d:\\documents\\code\\jason brandon loi_2802484584_asp.net\\rentalmobil\\controllers\\rentalcontrollers.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5FBBF0E6-D63A-4B83-B655-C176A6762C9A}|RentalMobil.csproj|solutionrelative:controllers\\rentalcontrollers.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5FBBF0E6-D63A-4B83-B655-C176A6762C9A}|RentalMobil.csproj|d:\\documents\\code\\jason brandon loi_2802484584_asp.net\\rentalmobil\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{5FBBF0E6-D63A-4B83-B655-C176A6762C9A}|RentalMobil.csproj|solutionrelative:views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5FBBF0E6-D63A-4B83-B655-C176A6762C9A}|RentalMobil.csproj|d:\\documents\\code\\jason brandon loi_2802484584_asp.net\\rentalmobil\\views\\car\\list.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{5FBBF0E6-D63A-4B83-B655-C176A6762C9A}|RentalMobil.csproj|solutionrelative:views\\car\\list.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5FBBF0E6-D63A-4B83-B655-C176A6762C9A}|RentalMobil.csproj|d:\\documents\\code\\jason brandon loi_2802484584_asp.net\\rentalmobil\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{5FBBF0E6-D63A-4B83-B655-C176A6762C9A}|RentalMobil.csproj|solutionrelative:views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5FBBF0E6-D63A-4B83-B655-C176A6762C9A}|RentalMobil.csproj|d:\\documents\\code\\jason brandon loi_2802484584_asp.net\\rentalmobil\\wwwroot\\css\\rental.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{5FBBF0E6-D63A-4B83-B655-C176A6762C9A}|RentalMobil.csproj|solutionrelative:wwwroot\\css\\rental.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5FBBF0E6-D63A-4B83-B655-C176A6762C9A}|RentalMobil.csproj|d:\\documents\\code\\jason brandon loi_2802484584_asp.net\\rentalmobil\\views\\home\\history.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{5FBBF0E6-D63A-4B83-B655-C176A6762C9A}|RentalMobil.csproj|solutionrelative:views\\home\\history.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5FBBF0E6-D63A-4B83-B655-C176A6762C9A}|RentalMobil.csproj|d:\\documents\\code\\jason brandon loi_2802484584_asp.net\\rentalmobil\\views\\account\\register.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{5FBBF0E6-D63A-4B83-B655-C176A6762C9A}|RentalMobil.csproj|solutionrelative:views\\account\\register.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5FBBF0E6-D63A-4B83-B655-C176A6762C9A}|RentalMobil.csproj|d:\\documents\\code\\jason brandon loi_2802484584_asp.net\\rentalmobil\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{5FBBF0E6-D63A-4B83-B655-C176A6762C9A}|RentalMobil.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5FBBF0E6-D63A-4B83-B655-C176A6762C9A}|RentalMobil.csproj|d:\\documents\\code\\jason brandon loi_2802484584_asp.net\\rentalmobil\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5FBBF0E6-D63A-4B83-B655-C176A6762C9A}|RentalMobil.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5FBBF0E6-D63A-4B83-B655-C176A6762C9A}|RentalMobil.csproj|d:\\documents\\code\\jason brandon loi_2802484584_asp.net\\rentalmobil\\views\\shared\\error.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{5FBBF0E6-D63A-4B83-B655-C176A6762C9A}|RentalMobil.csproj|solutionrelative:views\\shared\\error.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5FBBF0E6-D63A-4B83-B655-C176A6762C9A}|RentalMobil.csproj|d:\\documents\\code\\jason brandon loi_2802484584_asp.net\\rentalmobil\\views\\shared\\_validationscriptspartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{5FBBF0E6-D63A-4B83-B655-C176A6762C9A}|RentalMobil.csproj|solutionrelative:views\\shared\\_validationscriptspartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5FBBF0E6-D63A-4B83-B655-C176A6762C9A}|RentalMobil.csproj|d:\\documents\\code\\jason brandon loi_2802484584_asp.net\\rentalmobil\\views\\home\\contact.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{5FBBF0E6-D63A-4B83-B655-C176A6762C9A}|RentalMobil.csproj|solutionrelative:views\\home\\contact.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5FBBF0E6-D63A-4B83-B655-C176A6762C9A}|RentalMobil.csproj|d:\\documents\\code\\jason brandon loi_2802484584_asp.net\\rentalmobil\\views\\account\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{5FBBF0E6-D63A-4B83-B655-C176A6762C9A}|RentalMobil.csproj|solutionrelative:views\\account\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5FBBF0E6-D63A-4B83-B655-C176A6762C9A}|RentalMobil.csproj|d:\\documents\\code\\jason brandon loi_2802484584_asp.net\\rentalmobil\\package-lock.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{5FBBF0E6-D63A-4B83-B655-C176A6762C9A}|RentalMobil.csproj|solutionrelative:package-lock.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5FBBF0E6-D63A-4B83-B655-C176A6762C9A}|RentalMobil.csproj|d:\\documents\\code\\jason brandon loi_2802484584_asp.net\\rentalmobil\\package.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{5FBBF0E6-D63A-4B83-B655-C176A6762C9A}|RentalMobil.csproj|solutionrelative:package.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5FBBF0E6-D63A-4B83-B655-C176A6762C9A}|RentalMobil.csproj|d:\\documents\\code\\jason brandon loi_2802484584_asp.net\\rentalmobil\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{5FBBF0E6-D63A-4B83-B655-C176A6762C9A}|RentalMobil.csproj|solutionrelative:appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5FBBF0E6-D63A-4B83-B655-C176A6762C9A}|RentalMobil.csproj|d:\\documents\\code\\jason brandon loi_2802484584_asp.net\\rentalmobil\\views\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{5FBBF0E6-D63A-4B83-B655-C176A6762C9A}|RentalMobil.csproj|solutionrelative:views\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5FBBF0E6-D63A-4B83-B655-C176A6762C9A}|RentalMobil.csproj|d:\\documents\\code\\jason brandon loi_2802484584_asp.net\\rentalmobil\\views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{5FBBF0E6-D63A-4B83-B655-C176A6762C9A}|RentalMobil.csproj|solutionrelative:views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5FBBF0E6-D63A-4B83-B655-C176A6762C9A}|RentalMobil.csproj|d:\\documents\\code\\jason brandon loi_2802484584_asp.net\\rentalmobil\\rentalmobil.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{5FBBF0E6-D63A-4B83-B655-C176A6762C9A}|RentalMobil.csproj|solutionrelative:rentalmobil.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5FBBF0E6-D63A-4B83-B655-C176A6762C9A}|RentalMobil.csproj|d:\\documents\\code\\jason brandon loi_2802484584_asp.net\\rentalmobil\\wwwroot\\js\\site.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{5FBBF0E6-D63A-4B83-B655-C176A6762C9A}|RentalMobil.csproj|solutionrelative:wwwroot\\js\\site.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5FBBF0E6-D63A-4B83-B655-C176A6762C9A}|RentalMobil.csproj|d:\\documents\\code\\jason brandon loi_2802484584_asp.net\\rentalmobil\\wwwroot\\css\\car.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{5FBBF0E6-D63A-4B83-B655-C176A6762C9A}|RentalMobil.csproj|solutionrelative:wwwroot\\css\\car.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5FBBF0E6-D63A-4B83-B655-C176A6762C9A}|RentalMobil.csproj|d:\\documents\\code\\jason brandon loi_2802484584_asp.net\\rentalmobil\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{5FBBF0E6-D63A-4B83-B655-C176A6762C9A}|RentalMobil.csproj|solutionrelative:wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 4,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "LoginViewModel.cs",
+              "DocumentMoniker": "D:\\Documents\\Code\\Jason Brandon Loi_2802484584_ASP.NET\\RentalMobil\\Models\\LoginViewModel.cs",
+              "RelativeDocumentMoniker": "Models\\LoginViewModel.cs",
+              "ToolTip": "D:\\Documents\\Code\\Jason Brandon Loi_2802484584_ASP.NET\\RentalMobil\\Models\\LoginViewModel.cs",
+              "RelativeToolTip": "Models\\LoginViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-28T16:11:14.528Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "ErrorViewModel.cs",
+              "DocumentMoniker": "D:\\Documents\\Code\\Jason Brandon Loi_2802484584_ASP.NET\\RentalMobil\\Models\\ErrorViewModel.cs",
+              "RelativeDocumentMoniker": "Models\\ErrorViewModel.cs",
+              "ToolTip": "D:\\Documents\\Code\\Jason Brandon Loi_2802484584_ASP.NET\\RentalMobil\\Models\\ErrorViewModel.cs",
+              "RelativeToolTip": "Models\\ErrorViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAuAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-28T16:00:41.061Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Car.cs",
+              "DocumentMoniker": "D:\\Documents\\Code\\Jason Brandon Loi_2802484584_ASP.NET\\RentalMobil\\Models\\Car.cs",
+              "RelativeDocumentMoniker": "Models\\Car.cs",
+              "ToolTip": "D:\\Documents\\Code\\Jason Brandon Loi_2802484584_ASP.NET\\RentalMobil\\Models\\Car.cs",
+              "RelativeToolTip": "Models\\Car.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-28T08:43:30.499Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Rental.cs",
+              "DocumentMoniker": "D:\\Documents\\Code\\Jason Brandon Loi_2802484584_ASP.NET\\RentalMobil\\Models\\Rental.cs",
+              "RelativeDocumentMoniker": "Models\\Rental.cs",
+              "ToolTip": "D:\\Documents\\Code\\Jason Brandon Loi_2802484584_ASP.NET\\RentalMobil\\Models\\Rental.cs",
+              "RelativeToolTip": "Models\\Rental.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-28T16:02:36.074Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "RegisterViewModel.cs",
+              "DocumentMoniker": "D:\\Documents\\Code\\Jason Brandon Loi_2802484584_ASP.NET\\RentalMobil\\Models\\RegisterViewModel.cs",
+              "RelativeDocumentMoniker": "Models\\RegisterViewModel.cs",
+              "ToolTip": "D:\\Documents\\Code\\Jason Brandon Loi_2802484584_ASP.NET\\RentalMobil\\Models\\RegisterViewModel.cs",
+              "RelativeToolTip": "Models\\RegisterViewModel.cs",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAAwCQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-28T18:15:01.81Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "User.cs",
+              "DocumentMoniker": "D:\\Documents\\Code\\Jason Brandon Loi_2802484584_ASP.NET\\RentalMobil\\Models\\User.cs",
+              "RelativeDocumentMoniker": "Models\\User.cs",
+              "ToolTip": "D:\\Documents\\Code\\Jason Brandon Loi_2802484584_ASP.NET\\RentalMobil\\Models\\User.cs",
+              "RelativeToolTip": "Models\\User.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAA3AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-28T16:08:42.353Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "UserResponeDto.cs",
+              "DocumentMoniker": "D:\\Documents\\Code\\Jason Brandon Loi_2802484584_ASP.NET\\RentalMobil\\Models\\DTOs\\UserResponeDto.cs",
+              "RelativeDocumentMoniker": "Models\\DTOs\\UserResponeDto.cs",
+              "ToolTip": "D:\\Documents\\Code\\Jason Brandon Loi_2802484584_ASP.NET\\RentalMobil\\Models\\DTOs\\UserResponeDto.cs",
+              "RelativeToolTip": "Models\\DTOs\\UserResponeDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-28T16:09:46.657Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "RentalResponseDto.cs",
+              "DocumentMoniker": "D:\\Documents\\Code\\Jason Brandon Loi_2802484584_ASP.NET\\RentalMobil\\Models\\DTOs\\RentalResponseDto.cs",
+              "RelativeDocumentMoniker": "Models\\DTOs\\RentalResponseDto.cs",
+              "ToolTip": "D:\\Documents\\Code\\Jason Brandon Loi_2802484584_ASP.NET\\RentalMobil\\Models\\DTOs\\RentalResponseDto.cs",
+              "RelativeToolTip": "Models\\DTOs\\RentalResponseDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-28T17:56:25.735Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "RentalRequestDto.cs",
+              "DocumentMoniker": "D:\\Documents\\Code\\Jason Brandon Loi_2802484584_ASP.NET\\RentalMobil\\Models\\DTOs\\RentalRequestDto.cs",
+              "RelativeDocumentMoniker": "Models\\DTOs\\RentalRequestDto.cs",
+              "ToolTip": "D:\\Documents\\Code\\Jason Brandon Loi_2802484584_ASP.NET\\RentalMobil\\Models\\DTOs\\RentalRequestDto.cs",
+              "RelativeToolTip": "Models\\DTOs\\RentalRequestDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-28T16:04:02.086Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "CarSearchRequestDto.cs",
+              "DocumentMoniker": "D:\\Documents\\Code\\Jason Brandon Loi_2802484584_ASP.NET\\RentalMobil\\Models\\DTOs\\CarSearchRequestDto.cs",
+              "RelativeDocumentMoniker": "Models\\DTOs\\CarSearchRequestDto.cs",
+              "ToolTip": "D:\\Documents\\Code\\Jason Brandon Loi_2802484584_ASP.NET\\RentalMobil\\Models\\DTOs\\CarSearchRequestDto.cs",
+              "RelativeToolTip": "Models\\DTOs\\CarSearchRequestDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-28T16:04:21.719Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "CarResponseDto.cs",
+              "DocumentMoniker": "D:\\Documents\\Code\\Jason Brandon Loi_2802484584_ASP.NET\\RentalMobil\\Models\\DTOs\\CarResponseDto.cs",
+              "RelativeDocumentMoniker": "Models\\DTOs\\CarResponseDto.cs",
+              "ToolTip": "D:\\Documents\\Code\\Jason Brandon Loi_2802484584_ASP.NET\\RentalMobil\\Models\\DTOs\\CarResponseDto.cs",
+              "RelativeToolTip": "Models\\DTOs\\CarResponseDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-28T16:03:41.548Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "CarDto.cs",
+              "DocumentMoniker": "D:\\Documents\\Code\\Jason Brandon Loi_2802484584_ASP.NET\\RentalMobil\\Models\\DTOs\\CarDto.cs",
+              "RelativeDocumentMoniker": "Models\\DTOs\\CarDto.cs",
+              "ToolTip": "D:\\Documents\\Code\\Jason Brandon Loi_2802484584_ASP.NET\\RentalMobil\\Models\\DTOs\\CarDto.cs",
+              "RelativeToolTip": "Models\\DTOs\\CarDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-29T15:13:09.414Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "RentalService.cs",
+              "DocumentMoniker": "D:\\Documents\\Code\\Jason Brandon Loi_2802484584_ASP.NET\\RentalMobil\\Services\\RentalService.cs",
+              "RelativeDocumentMoniker": "Services\\RentalService.cs",
+              "ToolTip": "D:\\Documents\\Code\\Jason Brandon Loi_2802484584_ASP.NET\\RentalMobil\\Services\\RentalService.cs",
+              "RelativeToolTip": "Services\\RentalService.cs",
+              "ViewState": "AgIAAKIAAAAAAAAAAAAQwKgAAAATAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-28T16:15:31.36Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "CarService.cs",
+              "DocumentMoniker": "D:\\Documents\\Code\\Jason Brandon Loi_2802484584_ASP.NET\\RentalMobil\\Services\\CarService.cs",
+              "RelativeDocumentMoniker": "Services\\CarService.cs",
+              "ToolTip": "D:\\Documents\\Code\\Jason Brandon Loi_2802484584_ASP.NET\\RentalMobil\\Services\\CarService.cs",
+              "RelativeToolTip": "Services\\CarService.cs",
+              "ViewState": "AgIAAE8AAAAAAAAAAAAAAAEBAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-28T16:15:09.553Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "ICarService.cs",
+              "DocumentMoniker": "D:\\Documents\\Code\\Jason Brandon Loi_2802484584_ASP.NET\\RentalMobil\\Services\\ICarService.cs",
+              "RelativeDocumentMoniker": "Services\\ICarService.cs",
+              "ToolTip": "D:\\Documents\\Code\\Jason Brandon Loi_2802484584_ASP.NET\\RentalMobil\\Services\\ICarService.cs",
+              "RelativeToolTip": "Services\\ICarService.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAAkAAAA3AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-28T16:14:34.38Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "IRentalService.cs",
+              "DocumentMoniker": "D:\\Documents\\Code\\Jason Brandon Loi_2802484584_ASP.NET\\RentalMobil\\Services\\IRentalService.cs",
+              "RelativeDocumentMoniker": "Services\\IRentalService.cs",
+              "ToolTip": "D:\\Documents\\Code\\Jason Brandon Loi_2802484584_ASP.NET\\RentalMobil\\Services\\IRentalService.cs",
+              "RelativeToolTip": "Services\\IRentalService.cs",
+              "ViewState": "AgIAABAAAAAAAAAAAAAQwB4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-28T16:14:52.41Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "DatabaseConnection.cs",
+              "DocumentMoniker": "D:\\Documents\\Code\\Jason Brandon Loi_2802484584_ASP.NET\\RentalMobil\\Data\\DatabaseConnection.cs",
+              "RelativeDocumentMoniker": "Data\\DatabaseConnection.cs",
+              "ToolTip": "D:\\Documents\\Code\\Jason Brandon Loi_2802484584_ASP.NET\\RentalMobil\\Data\\DatabaseConnection.cs",
+              "RelativeToolTip": "Data\\DatabaseConnection.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-29T08:46:15.96Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "AccountControllers.cs",
+              "DocumentMoniker": "D:\\Documents\\Code\\Jason Brandon Loi_2802484584_ASP.NET\\RentalMobil\\Controllers\\AccountControllers.cs",
+              "RelativeDocumentMoniker": "Controllers\\AccountControllers.cs",
+              "ToolTip": "D:\\Documents\\Code\\Jason Brandon Loi_2802484584_ASP.NET\\RentalMobil\\Controllers\\AccountControllers.cs",
+              "RelativeToolTip": "Controllers\\AccountControllers.cs",
+              "ViewState": "AgIAADQAAAAAAAAAAAAAAFwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-29T06:48:40.929Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "CarControllers.cs",
+              "DocumentMoniker": "D:\\Documents\\Code\\Jason Brandon Loi_2802484584_ASP.NET\\RentalMobil\\Controllers\\CarControllers.cs",
+              "RelativeDocumentMoniker": "Controllers\\CarControllers.cs",
+              "ToolTip": "D:\\Documents\\Code\\Jason Brandon Loi_2802484584_ASP.NET\\RentalMobil\\Controllers\\CarControllers.cs",
+              "RelativeToolTip": "Controllers\\CarControllers.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-29T07:03:38.003Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "HomeControllers.cs",
+              "DocumentMoniker": "D:\\Documents\\Code\\Jason Brandon Loi_2802484584_ASP.NET\\RentalMobil\\Controllers\\HomeControllers.cs",
+              "RelativeDocumentMoniker": "Controllers\\HomeControllers.cs",
+              "ToolTip": "D:\\Documents\\Code\\Jason Brandon Loi_2802484584_ASP.NET\\RentalMobil\\Controllers\\HomeControllers.cs",
+              "RelativeToolTip": "Controllers\\HomeControllers.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-29T06:49:42.238Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "RentalControllers.cs",
+              "DocumentMoniker": "D:\\Documents\\Code\\Jason Brandon Loi_2802484584_ASP.NET\\RentalMobil\\Controllers\\RentalControllers.cs",
+              "RelativeDocumentMoniker": "Controllers\\RentalControllers.cs",
+              "ToolTip": "D:\\Documents\\Code\\Jason Brandon Loi_2802484584_ASP.NET\\RentalMobil\\Controllers\\RentalControllers.cs",
+              "RelativeToolTip": "Controllers\\RentalControllers.cs",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAYwDkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-29T12:47:10.786Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "D:\\Documents\\Code\\Jason Brandon Loi_2802484584_ASP.NET\\RentalMobil\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "Views\\Home\\Index.cshtml",
+              "ToolTip": "D:\\Documents\\Code\\Jason Brandon Loi_2802484584_ASP.NET\\RentalMobil\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "Views\\Home\\Index.cshtml",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAABkAAAA2AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-28T08:33:59.95Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "List.cshtml",
+              "DocumentMoniker": "D:\\Documents\\Code\\Jason Brandon Loi_2802484584_ASP.NET\\RentalMobil\\Views\\Car\\List.cshtml",
+              "RelativeDocumentMoniker": "Views\\Car\\List.cshtml",
+              "ToolTip": "D:\\Documents\\Code\\Jason Brandon Loi_2802484584_ASP.NET\\RentalMobil\\Views\\Car\\List.cshtml",
+              "RelativeToolTip": "Views\\Car\\List.cshtml",
+              "ViewState": "AgIAALsAAAAAAAAAAAAuwMsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-28T18:15:30.42Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "D:\\Documents\\Code\\Jason Brandon Loi_2802484584_ASP.NET\\RentalMobil\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "D:\\Documents\\Code\\Jason Brandon Loi_2802484584_ASP.NET\\RentalMobil\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAAAD4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-28T08:30:50.013Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "rental.css",
+              "DocumentMoniker": "D:\\Documents\\Code\\Jason Brandon Loi_2802484584_ASP.NET\\RentalMobil\\wwwroot\\css\\rental.css",
+              "RelativeDocumentMoniker": "wwwroot\\css\\rental.css",
+              "ToolTip": "D:\\Documents\\Code\\Jason Brandon Loi_2802484584_ASP.NET\\RentalMobil\\wwwroot\\css\\rental.css",
+              "RelativeToolTip": "wwwroot\\css\\rental.css",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABkAAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2024-10-29T12:44:47.991Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "History.cshtml",
+              "DocumentMoniker": "D:\\Documents\\Code\\Jason Brandon Loi_2802484584_ASP.NET\\RentalMobil\\Views\\Home\\History.cshtml",
+              "RelativeDocumentMoniker": "Views\\Home\\History.cshtml",
+              "ToolTip": "D:\\Documents\\Code\\Jason Brandon Loi_2802484584_ASP.NET\\RentalMobil\\Views\\Home\\History.cshtml",
+              "RelativeToolTip": "Views\\Home\\History.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-28T08:32:17.145Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "Register.cshtml",
+              "DocumentMoniker": "D:\\Documents\\Code\\Jason Brandon Loi_2802484584_ASP.NET\\RentalMobil\\Views\\Account\\Register.cshtml",
+              "RelativeDocumentMoniker": "Views\\Account\\Register.cshtml",
+              "ToolTip": "D:\\Documents\\Code\\Jason Brandon Loi_2802484584_ASP.NET\\RentalMobil\\Views\\Account\\Register.cshtml",
+              "RelativeToolTip": "Views\\Account\\Register.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-29T06:27:20.16Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "D:\\Documents\\Code\\Jason Brandon Loi_2802484584_ASP.NET\\RentalMobil\\appsettings.json",
+              "RelativeDocumentMoniker": "appsettings.json",
+              "ToolTip": "D:\\Documents\\Code\\Jason Brandon Loi_2802484584_ASP.NET\\RentalMobil\\appsettings.json",
+              "RelativeToolTip": "appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAA/AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-10-28T15:51:03.097Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\Documents\\Code\\Jason Brandon Loi_2802484584_ASP.NET\\RentalMobil\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "D:\\Documents\\Code\\Jason Brandon Loi_2802484584_ASP.NET\\RentalMobil\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-28T16:06:05.762Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "Error.cshtml",
+              "DocumentMoniker": "D:\\Documents\\Code\\Jason Brandon Loi_2802484584_ASP.NET\\RentalMobil\\Views\\Shared\\Error.cshtml",
+              "RelativeDocumentMoniker": "Views\\Shared\\Error.cshtml",
+              "ToolTip": "D:\\Documents\\Code\\Jason Brandon Loi_2802484584_ASP.NET\\RentalMobil\\Views\\Shared\\Error.cshtml",
+              "RelativeToolTip": "Views\\Shared\\Error.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-29T07:35:02.913Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "_ValidationScriptsPartial.cshtml",
+              "DocumentMoniker": "D:\\Documents\\Code\\Jason Brandon Loi_2802484584_ASP.NET\\RentalMobil\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
+              "RelativeDocumentMoniker": "Views\\Shared\\_ValidationScriptsPartial.cshtml",
+              "ToolTip": "D:\\Documents\\Code\\Jason Brandon Loi_2802484584_ASP.NET\\RentalMobil\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
+              "RelativeToolTip": "Views\\Shared\\_ValidationScriptsPartial.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-28T08:49:36.597Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "Contact.cshtml",
+              "DocumentMoniker": "D:\\Documents\\Code\\Jason Brandon Loi_2802484584_ASP.NET\\RentalMobil\\Views\\Home\\Contact.cshtml",
+              "RelativeDocumentMoniker": "Views\\Home\\Contact.cshtml",
+              "ToolTip": "D:\\Documents\\Code\\Jason Brandon Loi_2802484584_ASP.NET\\RentalMobil\\Views\\Home\\Contact.cshtml",
+              "RelativeToolTip": "Views\\Home\\Contact.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAABSAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-28T08:32:33.146Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
+              "Title": "Login.cshtml",
+              "DocumentMoniker": "D:\\Documents\\Code\\Jason Brandon Loi_2802484584_ASP.NET\\RentalMobil\\Views\\Account\\Login.cshtml",
+              "RelativeDocumentMoniker": "Views\\Account\\Login.cshtml",
+              "ToolTip": "D:\\Documents\\Code\\Jason Brandon Loi_2802484584_ASP.NET\\RentalMobil\\Views\\Account\\Login.cshtml",
+              "RelativeToolTip": "Views\\Account\\Login.cshtml",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAABAAAABXAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-28T18:16:29.004Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 33,
+              "Title": "package-lock.json",
+              "DocumentMoniker": "D:\\Documents\\Code\\Jason Brandon Loi_2802484584_ASP.NET\\RentalMobil\\package-lock.json",
+              "RelativeDocumentMoniker": "package-lock.json",
+              "ToolTip": "D:\\Documents\\Code\\Jason Brandon Loi_2802484584_ASP.NET\\RentalMobil\\package-lock.json",
+              "RelativeToolTip": "package-lock.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-10-29T04:48:40.691Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 34,
+              "Title": "package.json",
+              "DocumentMoniker": "D:\\Documents\\Code\\Jason Brandon Loi_2802484584_ASP.NET\\RentalMobil\\package.json",
+              "RelativeDocumentMoniker": "package.json",
+              "ToolTip": "D:\\Documents\\Code\\Jason Brandon Loi_2802484584_ASP.NET\\RentalMobil\\package.json",
+              "RelativeToolTip": "package.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-10-29T07:07:51.494Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 35,
+              "Title": "appsettings.Development.json",
+              "DocumentMoniker": "D:\\Documents\\Code\\Jason Brandon Loi_2802484584_ASP.NET\\RentalMobil\\appsettings.Development.json",
+              "RelativeDocumentMoniker": "appsettings.Development.json",
+              "ToolTip": "D:\\Documents\\Code\\Jason Brandon Loi_2802484584_ASP.NET\\RentalMobil\\appsettings.Development.json",
+              "RelativeToolTip": "appsettings.Development.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-10-29T12:56:21.579Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 36,
+              "Title": "_ViewStart.cshtml",
+              "DocumentMoniker": "D:\\Documents\\Code\\Jason Brandon Loi_2802484584_ASP.NET\\RentalMobil\\Views\\_ViewStart.cshtml",
+              "RelativeDocumentMoniker": "Views\\_ViewStart.cshtml",
+              "ToolTip": "D:\\Documents\\Code\\Jason Brandon Loi_2802484584_ASP.NET\\RentalMobil\\Views\\_ViewStart.cshtml",
+              "RelativeToolTip": "Views\\_ViewStart.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-28T17:02:57.17Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 37,
+              "Title": "_ViewImports.cshtml",
+              "DocumentMoniker": "D:\\Documents\\Code\\Jason Brandon Loi_2802484584_ASP.NET\\RentalMobil\\Views\\_ViewImports.cshtml",
+              "RelativeDocumentMoniker": "Views\\_ViewImports.cshtml",
+              "ToolTip": "D:\\Documents\\Code\\Jason Brandon Loi_2802484584_ASP.NET\\RentalMobil\\Views\\_ViewImports.cshtml",
+              "RelativeToolTip": "Views\\_ViewImports.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-28T17:02:50.616Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 38,
+              "Title": "RentalMobil.csproj",
+              "DocumentMoniker": "D:\\Documents\\Code\\Jason Brandon Loi_2802484584_ASP.NET\\RentalMobil\\RentalMobil.csproj",
+              "RelativeDocumentMoniker": "RentalMobil.csproj",
+              "ToolTip": "D:\\Documents\\Code\\Jason Brandon Loi_2802484584_ASP.NET\\RentalMobil\\RentalMobil.csproj",
+              "RelativeToolTip": "RentalMobil.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-10-28T15:51:21.781Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 39,
+              "Title": "site.js",
+              "DocumentMoniker": "D:\\Documents\\Code\\Jason Brandon Loi_2802484584_ASP.NET\\RentalMobil\\wwwroot\\js\\site.js",
+              "RelativeDocumentMoniker": "wwwroot\\js\\site.js",
+              "ToolTip": "D:\\Documents\\Code\\Jason Brandon Loi_2802484584_ASP.NET\\RentalMobil\\wwwroot\\js\\site.js",
+              "RelativeToolTip": "wwwroot\\js\\site.js",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2024-10-29T06:27:47.657Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 40,
+              "Title": "Car.css",
+              "DocumentMoniker": "D:\\Documents\\Code\\Jason Brandon Loi_2802484584_ASP.NET\\RentalMobil\\wwwroot\\css\\Car.css",
+              "RelativeDocumentMoniker": "wwwroot\\css\\Car.css",
+              "ToolTip": "D:\\Documents\\Code\\Jason Brandon Loi_2802484584_ASP.NET\\RentalMobil\\wwwroot\\css\\Car.css",
+              "RelativeToolTip": "wwwroot\\css\\Car.css",
+              "ViewState": "AgIAANEBAAAAAAAAAAAcwNcBAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2024-10-29T05:53:50.429Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 41,
+              "Title": "additional-methods.js",
+              "DocumentMoniker": "D:\\Documents\\Code\\Jason Brandon Loi_2802484584_ASP.NET\\RentalMobil\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+              "RelativeDocumentMoniker": "wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+              "ToolTip": "D:\\Documents\\Code\\Jason Brandon Loi_2802484584_ASP.NET\\RentalMobil\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+              "RelativeToolTip": "wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+              "ViewState": "AgIAAOEAAAAAAAAAAAAnwA8BAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2024-10-28T17:03:00.861Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

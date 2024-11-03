@@ -1,0 +1,73 @@
+{
+  "Files": [
+    {
+      "Id": "D:\\Documents\\Code\\Jason Brandon Loi_2802484584_ASP.NET\\RentalMobil\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\RentalMobil.bundle.scp.css",
+      "PackagePath": "staticwebassets\\RentalMobil.bundle.scp.css"
+    },
+    {
+      "Id": "D:\\Documents\\Code\\Jason Brandon Loi_2802484584_ASP.NET\\RentalMobil\\wwwroot\\css\\Car.css",
+      "PackagePath": "staticwebassets\\css\\Car.css"
+    },
+    {
+      "Id": "D:\\Documents\\Code\\Jason Brandon Loi_2802484584_ASP.NET\\RentalMobil\\wwwroot\\css\\Login.css",
+      "PackagePath": "staticwebassets\\css\\Login.css"
+    },
+    {
+      "Id": "D:\\Documents\\Code\\Jason Brandon Loi_2802484584_ASP.NET\\RentalMobil\\wwwroot\\css\\Register.css",
+      "PackagePath": "staticwebassets\\css\\Register.css"
+    },
+    {
+      "Id": "D:\\Documents\\Code\\Jason Brandon Loi_2802484584_ASP.NET\\RentalMobil\\wwwroot\\css\\rental.css",
+      "PackagePath": "staticwebassets\\css\\rental.css"
+    },
+    {
+      "Id": "D:\\Documents\\Code\\Jason Brandon Loi_2802484584_ASP.NET\\RentalMobil\\wwwroot\\css\\site.css",
+      "PackagePath": "staticwebassets\\css\\site.css"
+    },
+    {
+      "Id": "D:\\Documents\\Code\\Jason Brandon Loi_2802484584_ASP.NET\\RentalMobil\\wwwroot\\favicon.ico",
+      "PackagePath": "staticwebassets\\favicon.ico"
+    },
+    {
+      "Id": "D:\\Documents\\Code\\Jason Brandon Loi_2802484584_ASP.NET\\RentalMobil\\wwwroot\\js\\site.js",
+      "PackagePath": "staticwebassets\\js\\site.js"
+    },
+    {
+      "Id": "D:\\Documents\\Code\\Jason Brandon Loi_2802484584_ASP.NET\\RentalMobil\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\LICENSE.md"
+    },
+    {
+      "Id": "D:\\Documents\\Code\\Jason Brandon Loi_2802484584_ASP.NET\\RentalMobil\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.js"
+    },
+    {
+      "Id": "D:\\Documents\\Code\\Jason Brandon Loi_2802484584_ASP.NET\\RentalMobil\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.min.js"
+    },
+    {
+      "Id": "D:\\Documents\\Code\\Jason Brandon Loi_2802484584_ASP.NET\\RentalMobil\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.js"
+    },
+    {
+      "Id": "D:\\Documents\\Code\\Jason Brandon Loi_2802484584_ASP.NET\\RentalMobil\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.RentalMobil.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.build.RentalMobil.props",
+      "PackagePath": "build\\RentalMobil.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildMultiTargeting.RentalMobil.props",
+      "PackagePath": "buildMultiTargeting\\RentalMobil.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildTransitive.RentalMobil.props",
+      "PackagePath": "buildTransitive\\RentalMobil.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

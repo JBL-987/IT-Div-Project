@@ -1,0 +1,62 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>@ViewData["Title"] - RentCar</title>
+    <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+
+    <!-- Render the Styles section if defined in the child view -->
+    @RenderSection("Styles", required: false)
+</head>
+<body>
+    <header>
+        <nav class="navbar">
+            <div class="container">
+                <div class="nav-brand">
+                    <button id="hamburger-menu" class="hamburger">
+                        <i class="fas fa-bars"></i>
+                    </button>
+                    <span class="brand-text">RentCar</span>
+                </div>
+                <div class="nav-buttons">
+                    @if (User.Identity.IsAuthenticated)
+                    {
+                        <span class="user-greeting">Hai, @User.Identity.Name</span>
+                    }
+                    else
+                    {
+                        <a class="button" asp-controller="Account" asp-action="Login">Login</a>
+                        <a class="button" asp-controller="Account" asp-action="Register">Register</a>
+                    }
+                </div>
+            </div>
+        </nav>
+    </header>
+    <div id="sidebar" class="sidebar">
+        <button id="close-sidebar" class="close-button">
+            <i class="fas fa-times"></i>
+        </button>
+        <ul class="sidebar-links">
+            <li><a asp-controller="Home" asp-action="Index">Home</a></li>
+            <li><a asp-controller="Home" asp-action="History">Riwayat Penyewaan</a></li>
+            <li><a asp-controller="Home" asp-action="Contact">Kontak Kami</a></li>
+        </ul>
+    </div>
+
+    <div class="container">
+        <main role="main" class="pb-3">
+            @RenderBody()
+        </main>
+    </div>
+
+    <footer class="footer">
+        <div class="container">
+            &copy; 2024 RentCar App. Semua Hak Dilindungi.
+        </div>
+    </footer>
+    <script src="~/js/site.js" asp-append-version="true"></script>
+    @await RenderSectionAsync("Scripts", required: false)
+</body>
+</html>
